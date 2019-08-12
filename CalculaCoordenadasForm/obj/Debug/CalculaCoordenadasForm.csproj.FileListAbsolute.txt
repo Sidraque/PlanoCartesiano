@@ -1,0 +1,10 @@
+C:\Users\sidra\source\repos\CalculaCoordenadasForm\CalculaCoordenadasForm\bin\Debug\CalculaCoordenadasForm.exe.config
+C:\Users\sidra\source\repos\CalculaCoordenadasForm\CalculaCoordenadasForm\bin\Debug\CalculaCoordenadasForm.exe
+C:\Users\sidra\source\repos\CalculaCoordenadasForm\CalculaCoordenadasForm\bin\Debug\CalculaCoordenadasForm.pdb
+C:\Users\sidra\source\repos\CalculaCoordenadasForm\CalculaCoordenadasForm\obj\Debug\CalculaCoordenadasForm.csprojAssemblyReference.cache
+C:\Users\sidra\source\repos\CalculaCoordenadasForm\CalculaCoordenadasForm\obj\Debug\CalculaCoordenadasForm.Form1.resources
+C:\Users\sidra\source\repos\CalculaCoordenadasForm\CalculaCoordenadasForm\obj\Debug\CalculaCoordenadasForm.Properties.Resources.resources
+C:\Users\sidra\source\repos\CalculaCoordenadasForm\CalculaCoordenadasForm\obj\Debug\CalculaCoordenadasForm.csproj.GenerateResource.cache
+C:\Users\sidra\source\repos\CalculaCoordenadasForm\CalculaCoordenadasForm\obj\Debug\CalculaCoordenadasForm.csproj.CoreCompileInputs.cache
+C:\Users\sidra\source\repos\CalculaCoordenadasForm\CalculaCoordenadasForm\obj\Debug\CalculaCoordenadasForm.exe
+C:\Users\sidra\source\repos\CalculaCoordenadasForm\CalculaCoordenadasForm\obj\Debug\CalculaCoordenadasForm.pdb
