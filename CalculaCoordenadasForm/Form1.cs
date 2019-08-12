@@ -21,9 +21,15 @@ namespace CalculaCoordenadasForm {
 
         private void Button1_Click(object sender, EventArgs e) {
             if ((textBoxAX.Text == String.Empty) || (textBoxAY.Text == String.Empty) || (textBoxAZ.Text == String.Empty) || (textBoxBX.Text == String.Empty) || (textBoxBY.Text == String.Empty) || (textBoxBZ.Text == String.Empty)) {
-                MessageBox.Show("Preencha todos os campos para calcular", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }else {
-
+                MessageBox.Show("Preencha todos os campos para calcular.", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else if ((textBoxAX.Text == "-") || (textBoxAY.Text == "-") || (textBoxAZ.Text == "-") || (textBoxBX.Text == "-") || (textBoxBY.Text == "-") || (textBoxBZ.Text == "-")) {
+                MessageBox.Show("Todos os campos devem ser preenchidos com caracteres numéricos.", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else if ((textBoxAX.Text == ",") || (textBoxAY.Text == ",") || (textBoxAZ.Text == ",") || (textBoxBX.Text == ",") || (textBoxBY.Text == ",") || (textBoxBZ.Text == ",")) {
+                MessageBox.Show("Todos os campos devem ser preenchidos com caracteres numéricos.", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else {
                 pontoA.CoordX = Convert.ToDouble(textBoxAX.Text);
                 pontoA.CoordY = Convert.ToDouble(textBoxAY.Text);
                 pontoA.CoordZ = Convert.ToDouble(textBoxAZ.Text);
@@ -43,7 +49,7 @@ namespace CalculaCoordenadasForm {
         private void Button2_Click(object sender, EventArgs e) {
 
             if ((textBoxAX.Text == String.Empty) && (textBoxAY.Text == String.Empty) && (textBoxAZ.Text == String.Empty) && (textBoxBX.Text == String.Empty) && (textBoxBY.Text == String.Empty) && (textBoxBZ.Text == String.Empty)) {
-                MessageBox.Show("Os campos já estão vazios", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Os campos já estão vazios!", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
             else {
 
@@ -59,42 +65,42 @@ namespace CalculaCoordenadasForm {
         private void TextBoxAX_KeyPress(object sender, KeyPressEventArgs e) {
             if (!Char.IsNumber(e.KeyChar) && e.KeyChar != (char)8 && e.KeyChar != ',' && e.KeyChar != '-') {
                 e.Handled = true;
-                MessageBox.Show("Caractere não permitido", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Caractere não permitido!", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
 
         private void TextBoxAY_KeyPress(object sender, KeyPressEventArgs e) {
             if (!Char.IsNumber(e.KeyChar) && e.KeyChar != (char)8 && e.KeyChar != ',' && e.KeyChar != '-') {
                 e.Handled = true;
-                MessageBox.Show("Caractere não permitido", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Caractere não permitido!", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
 
         private void TextBoxAZ_KeyPress(object sender, KeyPressEventArgs e) {
             if (!Char.IsNumber(e.KeyChar) && e.KeyChar != (char)8 && e.KeyChar != ',' && e.KeyChar != '-') {
                 e.Handled = true;
-                MessageBox.Show("Caractere não permitido", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Caractere não permitido!", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
 
         private void TextBoxBX_KeyPress(object sender, KeyPressEventArgs e) {
             if (!Char.IsNumber(e.KeyChar) && e.KeyChar != (char)8 && e.KeyChar != ',' && e.KeyChar != '-') {
                 e.Handled = true;
-                MessageBox.Show("Caractere não permitido", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Caractere não permitido!", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
 
         private void TextBoxBY_KeyPress(object sender, KeyPressEventArgs e) {
             if (!Char.IsNumber(e.KeyChar) && e.KeyChar != (char)8 && e.KeyChar != ',' && e.KeyChar != '-') {
                 e.Handled = true;
-                MessageBox.Show("Caractere não permitido", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Caractere não permitido!", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
 
         private void TextBoxBZ_KeyPress(object sender, KeyPressEventArgs e) {
             if (!Char.IsNumber(e.KeyChar) && e.KeyChar != (char)8 && e.KeyChar != ',' && e.KeyChar != '-') {
                 e.Handled = true;
-                MessageBox.Show("Caractere não permitido", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Caractere não permitido!", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
     }
