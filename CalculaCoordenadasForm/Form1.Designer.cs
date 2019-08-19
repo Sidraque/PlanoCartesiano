@@ -45,36 +45,42 @@
             // 
             resources.ApplyResources(this.label1, "label1");
             this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Name = "label1";
             // 
             // label2
             // 
             resources.ApplyResources(this.label2, "label2");
             this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Name = "label2";
             // 
             // label3
             // 
             resources.ApplyResources(this.label3, "label3");
             this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Name = "label3";
             // 
             // label4
             // 
             resources.ApplyResources(this.label4, "label4");
             this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Name = "label4";
             // 
             // label5
             // 
             resources.ApplyResources(this.label5, "label5");
             this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Name = "label5";
             // 
             // label6
             // 
             resources.ApplyResources(this.label6, "label6");
             this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Name = "label6";
             // 
             // textBoxAX
@@ -89,35 +95,35 @@
             resources.ApplyResources(this.textBoxAY, "textBoxAY");
             this.textBoxAY.BackColor = System.Drawing.SystemColors.Window;
             this.textBoxAY.Name = "textBoxAY";
-            this.textBoxAY.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxAY_KeyPress);
+            this.textBoxAY.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxAX_KeyPress);
             // 
             // textBoxAZ
             // 
             resources.ApplyResources(this.textBoxAZ, "textBoxAZ");
             this.textBoxAZ.BackColor = System.Drawing.SystemColors.Window;
             this.textBoxAZ.Name = "textBoxAZ";
-            this.textBoxAZ.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxAZ_KeyPress);
+            this.textBoxAZ.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxAX_KeyPress);
             // 
             // textBoxBX
             // 
             resources.ApplyResources(this.textBoxBX, "textBoxBX");
             this.textBoxBX.BackColor = System.Drawing.SystemColors.Window;
             this.textBoxBX.Name = "textBoxBX";
-            this.textBoxBX.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxBX_KeyPress);
+            this.textBoxBX.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxAX_KeyPress);
             // 
             // textBoxBY
             // 
             resources.ApplyResources(this.textBoxBY, "textBoxBY");
             this.textBoxBY.BackColor = System.Drawing.SystemColors.Window;
             this.textBoxBY.Name = "textBoxBY";
-            this.textBoxBY.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxBY_KeyPress);
+            this.textBoxBY.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxAX_KeyPress);
             // 
             // textBoxBZ
             // 
             resources.ApplyResources(this.textBoxBZ, "textBoxBZ");
             this.textBoxBZ.BackColor = System.Drawing.SystemColors.Window;
             this.textBoxBZ.Name = "textBoxBZ";
-            this.textBoxBZ.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxBZ_KeyPress);
+            this.textBoxBZ.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxAX_KeyPress);
             // 
             // button1
             // 
@@ -144,6 +150,7 @@
             // 
             // Form1
             // 
+            this.AcceptButton = this.button1;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;

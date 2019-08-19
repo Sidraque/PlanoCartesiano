@@ -68,40 +68,6 @@ namespace CalculaCoordenadasForm {
                 MessageBox.Show("Caractere não permitido!", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
-
-        private void TextBoxAY_KeyPress(object sender, KeyPressEventArgs e) {
-            if (!Char.IsNumber(e.KeyChar) && e.KeyChar != (char)8 && e.KeyChar != ',' && e.KeyChar != '-') {
-                e.Handled = true;
-                MessageBox.Show("Caractere não permitido!", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-            }
-        }
-
-        private void TextBoxAZ_KeyPress(object sender, KeyPressEventArgs e) {
-            if (!Char.IsNumber(e.KeyChar) && e.KeyChar != (char)8 && e.KeyChar != ',' && e.KeyChar != '-') {
-                e.Handled = true;
-                MessageBox.Show("Caractere não permitido!", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-            }
-        }
-
-        private void TextBoxBX_KeyPress(object sender, KeyPressEventArgs e) {
-            if (!Char.IsNumber(e.KeyChar) && e.KeyChar != (char)8 && e.KeyChar != ',' && e.KeyChar != '-') {
-                e.Handled = true;
-                MessageBox.Show("Caractere não permitido!", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-            }
-        }
-
-        private void TextBoxBY_KeyPress(object sender, KeyPressEventArgs e) {
-            if (!Char.IsNumber(e.KeyChar) && e.KeyChar != (char)8 && e.KeyChar != ',' && e.KeyChar != '-') {
-                e.Handled = true;
-                MessageBox.Show("Caractere não permitido!", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-            }
-        }
-
-        private void TextBoxBZ_KeyPress(object sender, KeyPressEventArgs e) {
-            if (!Char.IsNumber(e.KeyChar) && e.KeyChar != (char)8 && e.KeyChar != ',' && e.KeyChar != '-') {
-                e.Handled = true;
-                MessageBox.Show("Caractere não permitido!", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-            }
-        }
     }
 }
+

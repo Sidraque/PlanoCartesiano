@@ -127,13 +127,13 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Swis721 BlkCn BT, 18pt</value>
+    <value>OCR-A BT, 36pt</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 83</value>
+    <value>69, 142</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 29</value>
+    <value>83, 52</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -160,13 +160,13 @@
     <value>True</value>
   </data>
   <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Swis721 BlkCn BT, 18pt</value>
+    <value>OCR-A BT, 36pt</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 133</value>
+    <value>69, 201</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 29</value>
+    <value>83, 52</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -193,13 +193,13 @@
     <value>True</value>
   </data>
   <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Swis721 BlkCn BT, 18pt</value>
+    <value>OCR-A BT, 36pt</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 187</value>
+    <value>69, 259</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 29</value>
+    <value>83, 52</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -226,13 +226,13 @@
     <value>True</value>
   </data>
   <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Swis721 BlkCn BT, 18pt</value>
+    <value>OCR-A BT, 36pt</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>201, 83</value>
+    <value>372, 140</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 29</value>
+    <value>83, 52</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -259,13 +259,13 @@
     <value>True</value>
   </data>
   <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Swis721 BlkCn BT, 18pt</value>
+    <value>OCR-A BT, 36pt</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>201, 133</value>
+    <value>372, 201</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>38, 29</value>
+    <value>83, 52</value>
   </data>
   <data name="label5.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -292,13 +292,13 @@
     <value>True</value>
   </data>
   <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Swis721 BlkCn BT, 18pt</value>
+    <value>OCR-A BT, 36pt</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>201, 187</value>
+    <value>372, 259</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 29</value>
+    <value>83, 52</value>
   </data>
   <data name="label6.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -322,10 +322,13 @@
     <value>None</value>
   </data>
   <data name="textBoxAX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>65, 87</value>
+    <value>158, 168</value>
+  </data>
+  <data name="textBoxAX.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="textBoxAX.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 20</value>
+    <value>195, 26</value>
   </data>
   <data name="textBoxAX.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -346,10 +349,13 @@
     <value>None</value>
   </data>
   <data name="textBoxAY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>65, 142</value>
+    <value>158, 227</value>
+  </data>
+  <data name="textBoxAY.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="textBoxAY.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 20</value>
+    <value>195, 26</value>
   </data>
   <data name="textBoxAY.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -370,10 +376,13 @@
     <value>None</value>
   </data>
   <data name="textBoxAZ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>65, 196</value>
+    <value>158, 285</value>
+  </data>
+  <data name="textBoxAZ.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="textBoxAZ.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 20</value>
+    <value>195, 26</value>
   </data>
   <data name="textBoxAZ.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -394,10 +403,13 @@
     <value>None</value>
   </data>
   <data name="textBoxBX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>244, 87</value>
+    <value>461, 168</value>
+  </data>
+  <data name="textBoxBX.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="textBoxBX.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 20</value>
+    <value>195, 26</value>
   </data>
   <data name="textBoxBX.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -418,10 +430,13 @@
     <value>None</value>
   </data>
   <data name="textBoxBY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>244, 142</value>
+    <value>461, 229</value>
+  </data>
+  <data name="textBoxBY.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="textBoxBY.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 20</value>
+    <value>195, 26</value>
   </data>
   <data name="textBoxBY.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -442,10 +457,13 @@
     <value>None</value>
   </data>
   <data name="textBoxBZ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>244, 196</value>
+    <value>461, 285</value>
+  </data>
+  <data name="textBoxBZ.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="textBoxBZ.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 20</value>
+    <value>195, 26</value>
   </data>
   <data name="textBoxBZ.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -7887,10 +7905,10 @@
     <value>NoControl</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>58, 259</value>
+    <value>156, 378</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 54</value>
+    <value>195, 74</value>
   </data>
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -15335,10 +15353,10 @@
     <value>NoControl</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>199, 259</value>
+    <value>395, 378</value>
   </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 54</value>
+    <value>195, 74</value>
   </data>
   <data name="button2.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -15365,13 +15383,13 @@
     <value>True</value>
   </data>
   <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Swis721 BlkCn BT, 21.75pt</value>
+    <value>Swis721 BlkCn BT, 48pt</value>
   </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>46, 20</value>
+    <value>48, 28</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>297, 35</value>
+    <value>654, 77</value>
   </data>
   <data name="label7.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -21200,7 +21218,7 @@
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>379, 355</value>
+    <value>733, 502</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
