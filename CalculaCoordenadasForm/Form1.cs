@@ -63,7 +63,7 @@ namespace CalculaCoordenadasForm {
         private void TextBoxAX_KeyPress(object sender, KeyPressEventArgs e) {
             if (!Char.IsNumber(e.KeyChar) && e.KeyChar != (char)8 && e.KeyChar != ',' && e.KeyChar != '-') {
                 e.Handled = true;
-                MessageBox.Show("Caractere não permitido!", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Caractere não permitido!", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
     }
